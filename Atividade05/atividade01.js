@@ -24,4 +24,4 @@ console.table(produto);
 let ordem_alfa = produto.sort((a, b) => a.nome.localeCompare(b.nome));
 
 let filtrar_quantidade = ordem_alfa.filter(q => q.quantidade > 0);
-console.table(filtrar_quantidade);
+console.tab(filtrar_quantidade);
